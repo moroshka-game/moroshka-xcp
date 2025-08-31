@@ -1,0 +1,29 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 2,
+    "[markdown]": {
+        "editor.insertSpaces": true
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.formatOnType": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.rulers": [100],
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "cSpell.words": [
+        "Moroshka",
+        "openupm",
+        "nameof"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:moroshka-xcp}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}

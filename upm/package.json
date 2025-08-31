@@ -1,0 +1,19 @@
+{
+  "name": "com.moroshka.xcp",
+  "displayName": "Moroshka Xcp",
+  "version": "1.0.0",
+  "author": {
+    "name": "Moroshka",
+    "email": "epishev.m@mail.ru"
+  },
+  "description": "The `Moroshka.Xcp` module provides enhanced exception classes that improve standard error handling mechanisms in .NET. These exceptions include additional data such as a unique error code (`ErrorCode`), context information (`Context`), member names (`MemberName`), and line numbers (`LineNumber`). This makes debugging and logging more informative.",
+  "dependencies": {
+  },
+  "samples": [
+    {
+      "displayName": "ChainExceptions",
+      "description": "Contains sample of calling ToString() on an exception chain",
+      "path": "Samples~/ChainExceptions"
+    }
+  ]
+}

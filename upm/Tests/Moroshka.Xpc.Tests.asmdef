@@ -1,0 +1,18 @@
+{
+    "name": "Moroshka.Xcp.Tests",
+    "rootNamespace": "Moroshka.Xcp.Tests",
+    "references": [
+        "Moroshka.Xcp"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

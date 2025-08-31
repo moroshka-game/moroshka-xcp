@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <LangVersion>9</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Moroshka.Xcp</Title>
+        <Authors>Moroshka</Authors>
+        <Copyright>Copyright (c) 2025 Moroshka</Copyright>
+        <RepositoryType>Git</RepositoryType>
+        <Version>1.0.0</Version>
+        <PackageId>Moroshka.Xcp</PackageId>
+        <RepositoryUrl>https://github.com/moroshka-game/moroshka-xcp.git</RepositoryUrl>
+        <Description>The `Moroshka.Xcp` module provides enhanced exception classes that extend the standard error-handling mechanisms in .NET. These exceptions include additional information such as unique error codes (`Code`), contextual details (`Context`), member names (`Member`), and line numbers (`Line`). This makes debugging and logging more informative.</Description>
+        <PackageProjectUrl>https://github.com/moroshka-game/moroshka-xcp</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>exception unity</PackageTags>
+        <PackageReleaseNotes>https://github.com/moroshka-game/moroshka-xcp/blob/master/Moroshka.Xcp.Upm/Packages/com.Moroshka.Xcp/CHANGELOG.md</PackageReleaseNotes>
+        <RootNamespace>Moroshka.Xcp</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\.github\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\LICENSE.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="..\upm\Runtime\ArgException.cs">
+        <Link>Runtime\ArgException.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\ArgNullException.cs">
+        <Link>Runtime\ArgNullException.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\ArgOutOfRangeException.cs">
+        <Link>Runtime\ArgOutOfRangeException.cs</Link>
+      </Compile>
+      	    <Compile Include="..\upm\Runtime\DetailedException.cs">
+      <Link>Runtime\DetailedException.cs</Link>
+    </Compile>
+      <Compile Include="..\upm\Runtime\InvOpException.cs">
+        <Link>Runtime\InvOpException.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Runtime\ObjDisposedException.cs">
+        <Link>Runtime\ObjDisposedException.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+</Project>

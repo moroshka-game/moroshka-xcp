@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "generatedon": "2025-08-31T14:42:56Z",
+    "parser": "MultiReportParser (2x OpenCoverParser)",
+    "assemblies": 1,
+    "classes": 6,
+    "files": 6,
+    "coveredlines": 115,
+    "uncoveredlines": 0,
+    "coverablelines": 115,
+    "totallines": 387,
+    "linecoverage": 100,
+    "coveredbranches": 0,
+    "totalbranches": 0,
+    "coveredmethods": 34,
+    "totalmethods": 34,
+    "methodcoverage": 100
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "Moroshka.Xcp", "classes": 6, "coverage": 100, "coveredlines": 115, "coverablelines": 115, "totallines": 387, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 34, "totalmethods": 34, "classesinassembly": [
+        { "name": "Moroshka.Xcp.ArgException", "coverage": 100, "coveredlines": 9, "coverablelines": 9, "totallines": 45, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4 },
+        { "name": "Moroshka.Xcp.ArgNullException", "coverage": 100, "coveredlines": 9, "coverablelines": 9, "totallines": 45, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4 },
+        { "name": "Moroshka.Xcp.ArgOutOfRangeException", "coverage": 100, "coveredlines": 11, "coverablelines": 11, "totallines": 55, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 6, "totalmethods": 6 },
+        { "name": "Moroshka.Xcp.DetailedException", "coverage": 100, "coveredlines": 70, "coverablelines": 70, "totallines": 163, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 14, "totalmethods": 14 },
+        { "name": "Moroshka.Xcp.InvOpException", "coverage": 100, "coveredlines": 7, "coverablelines": 7, "totallines": 34, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Moroshka.Xcp.ObjDisposedException", "coverage": 100, "coveredlines": 9, "coverablelines": 9, "totallines": 45, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4 } ] } ]
+  }
+}

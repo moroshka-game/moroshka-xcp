@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <LangVersion>9</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+      <PackageReference Include="NUnit" Version="4.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\moroshka-xcp\Moroshka.Xcp.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="..\upm\Tests\ArgExceptionTests.cs">
+        <Link>Tests\ArgExceptionTests.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Tests\ArgNullExceptionTests.cs">
+        <Link>Tests\ArgNullExceptionTests.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Tests\ArgOutOfRangeExceptionTests.cs">
+        <Link>Tests\ArgOutOfRangeExceptionTests.cs</Link>
+      </Compile>
+      	    <Compile Include="..\upm\Tests\DetailedExceptionTests.cs">
+      <Link>Tests\DetailedExceptionTests.cs</Link>
+    </Compile>
+      <Compile Include="..\upm\Tests\InvOpExceptionTests.cs">
+        <Link>Tests\InvOpExceptionTests.cs</Link>
+      </Compile>
+      <Compile Include="..\upm\Tests\ObjDisposedExceptionTests.cs">
+        <Link>Tests\ObjDisposedExceptionTests.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>31.08.2025 - 17:42:56</Generatedon>
+    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Assemblies>1</Assemblies>
+    <Classes>6</Classes>
+    <Files>6</Files>
+    <Coveredlines>115</Coveredlines>
+    <Uncoveredlines>0</Uncoveredlines>
+    <Coverablelines>115</Coverablelines>
+    <Totallines>387</Totallines>
+    <Linecoverage>100</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>34</Coveredmethods>
+    <Totalmethods>34</Totalmethods>
+    <Methodcoverage>100</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="Moroshka.Xcp" classes="6" coverage="100" coveredlines="115" coverablelines="115" totallines="387" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="34" totalmethods="34" methodcoverage="100">
+      <Class name="Moroshka.Xcp.ArgException" coverage="100" coveredlines="9" coverablelines="9" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="Moroshka.Xcp.ArgNullException" coverage="100" coveredlines="9" coverablelines="9" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="Moroshka.Xcp.ArgOutOfRangeException" coverage="100" coveredlines="11" coverablelines="11" totallines="55" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="6" methodcoverage="100" />
+      <Class name="Moroshka.Xcp.DetailedException" coverage="100" coveredlines="70" coverablelines="70" totallines="163" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="14" totalmethods="14" methodcoverage="100" />
+      <Class name="Moroshka.Xcp.InvOpException" coverage="100" coveredlines="7" coverablelines="7" totallines="34" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="Moroshka.Xcp.ObjDisposedException" coverage="100" coveredlines="9" coverablelines="9" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

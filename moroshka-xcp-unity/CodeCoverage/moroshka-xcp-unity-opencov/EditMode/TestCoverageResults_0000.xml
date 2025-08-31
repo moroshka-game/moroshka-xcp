@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.0.0.0">
+  <Summary numSequencePoints="128" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="6" visitedMethods="0" numMethods="34" />
+  <Modules>
+    <Module>
+      <Summary numSequencePoints="128" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="6" visitedMethods="0" numMethods="34" />
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Moroshka.Xcp</ModuleName>
+      <Files>
+        <File uid="1" fullPath="D:/Work/Moroshka/moroshka-xcp/UPM/Runtime/ArgException.cs" />
+        <File uid="2" fullPath="D:/Work/Moroshka/moroshka-xcp/UPM/Runtime/ArgNullException.cs" />
+        <File uid="3" fullPath="D:/Work/Moroshka/moroshka-xcp/UPM/Runtime/ArgOutOfRangeException.cs" />
+        <File uid="4" fullPath="D:/Work/Moroshka/moroshka-xcp/UPM/Runtime/DetailedException.cs" />
+        <File uid="5" fullPath="D:/Work/Moroshka/moroshka-xcp/UPM/Runtime/InvOpException.cs" />
+        <File uid="6" fullPath="D:/Work/Moroshka/moroshka-xcp/UPM/Runtime/ObjDisposedException.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>Moroshka.Xcp.ArgException</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.String Moroshka.Xcp.ArgException::get_Param()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2049" ordinal="0" offset="0" sl="40" sc="10" el="40" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void Moroshka.Xcp.ArgException::set_Param(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2050" ordinal="0" offset="0" sl="41" sc="10" el="41" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>Moroshka.Xcp.ArgException::ArgException(System.String, System.Exception)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2051" ordinal="0" offset="0" sl="21" sc="5" el="21" ec="5" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2052" ordinal="0" offset="9" sl="22" sc="2" el="22" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2053" ordinal="0" offset="10" sl="23" sc="3" el="23" ec="3" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2054" ordinal="0" offset="22" sl="24" sc="2" el="24" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>Moroshka.Xcp.ArgException::ArgException(System.Exception)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2055" ordinal="0" offset="0" sl="31" sc="5" el="31" ec="5" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2056" ordinal="0" offset="13" sl="32" sc="2" el="32" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2057" ordinal="0" offset="14" sl="33" sc="2" el="33" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>Moroshka.Xcp.ArgNullException</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.String Moroshka.Xcp.ArgNullException::get_Param()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2058" ordinal="0" offset="0" sl="40" sc="10" el="40" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void Moroshka.Xcp.ArgNullException::set_Param(System.String)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2059" ordinal="0" offset="0" sl="41" sc="10" el="41" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>Moroshka.Xcp.ArgNullException::ArgNullException(System.String, System.Exception)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2060" ordinal="0" offset="0" sl="21" sc="5" el="21" ec="5" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="2061" ordinal="0" offset="9" sl="22" sc="2" el="22" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="2062" ordinal="0" offset="10" sl="23" sc="3" el="23" ec="3" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="2063" ordinal="0" offset="22" sl="24" sc="2" el="24" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>Moroshka.Xcp.ArgNullException::ArgNullException(System.Exception)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2064" ordinal="0" offset="0" sl="31" sc="5" el="31" ec="5" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="2065" ordinal="0" offset="13" sl="32" sc="2" el="32" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="2066" ordinal="0" offset="14" sl="33" sc="2" el="33" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="11" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="6" />
+          <FullName>Moroshka.Xcp.ArgOutOfRangeException</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.String Moroshka.Xcp.ArgOutOfRangeException::get_Param()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2067" ordinal="0" offset="0" sl="41" sc="10" el="41" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void Moroshka.Xcp.ArgOutOfRangeException::set_Param(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2068" ordinal="0" offset="0" sl="42" sc="10" el="42" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.String Moroshka.Xcp.ArgOutOfRangeException::get_ActualValue()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2069" ordinal="0" offset="0" sl="50" sc="10" el="50" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void Moroshka.Xcp.ArgOutOfRangeException::set_ActualValue(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2070" ordinal="0" offset="0" sl="51" sc="10" el="51" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>Moroshka.Xcp.ArgOutOfRangeException::ArgOutOfRangeException(System.String, System.Exception)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2071" ordinal="0" offset="0" sl="22" sc="5" el="22" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="2072" ordinal="0" offset="9" sl="23" sc="2" el="23" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="2073" ordinal="0" offset="10" sl="24" sc="3" el="24" ec="3" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="2074" ordinal="0" offset="22" sl="25" sc="2" el="25" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>Moroshka.Xcp.ArgOutOfRangeException::ArgOutOfRangeException(System.Exception)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2075" ordinal="0" offset="0" sl="32" sc="5" el="32" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="2076" ordinal="0" offset="13" sl="33" sc="2" el="33" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="2077" ordinal="0" offset="14" sl="34" sc="2" el="34" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="83" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="14" />
+          <FullName>Moroshka.Xcp.DetailedException</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Collections.IDictionary Moroshka.Xcp.DetailedException::get_Data()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2078" ordinal="0" offset="0" sl="37" sc="45" el="37" ec="45" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.String Moroshka.Xcp.DetailedException::get_Code()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2079" ordinal="0" offset="0" sl="46" sc="10" el="46" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void Moroshka.Xcp.DetailedException::set_Code(System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2080" ordinal="0" offset="0" sl="47" sc="10" el="47" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.String Moroshka.Xcp.DetailedException::get_Context()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2081" ordinal="0" offset="0" sl="57" sc="10" el="57" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void Moroshka.Xcp.DetailedException::set_Context(System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2082" ordinal="0" offset="0" sl="58" sc="10" el="58" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.String Moroshka.Xcp.DetailedException::get_Member()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2083" ordinal="0" offset="0" sl="68" sc="10" el="68" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void Moroshka.Xcp.DetailedException::set_Member(System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2084" ordinal="0" offset="0" sl="69" sc="10" el="69" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.String Moroshka.Xcp.DetailedException::get_Line()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2085" ordinal="0" offset="0" sl="79" sc="10" el="79" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void Moroshka.Xcp.DetailedException::set_Line(System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2086" ordinal="0" offset="0" sl="80" sc="10" el="80" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.String Moroshka.Xcp.DetailedException::ToString()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2087" ordinal="0" offset="0" sl="89" sc="2" el="89" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2088" ordinal="0" offset="1" sl="90" sc="3" el="90" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2089" ordinal="0" offset="7" sl="91" sc="3" el="91" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2090" ordinal="0" offset="16" sl="92" sc="3" el="92" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2091" ordinal="0" offset="25" sl="93" sc="2" el="93" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="17" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>static System.Void Moroshka.Xcp.DetailedException::BuildExceptionString(System.Exception, System.Text.StringBuilder, System.Int32)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2092" ordinal="0" offset="0" sl="96" sc="2" el="96" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2093" ordinal="0" offset="1" sl="97" sc="3" el="97" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2094" ordinal="0" offset="8" sl="98" sc="3" el="98" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2095" ordinal="0" offset="25" sl="99" sc="3" el="99" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2096" ordinal="0" offset="32" sl="100" sc="3" el="100" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2097" ordinal="0" offset="40" sl="101" sc="3" el="101" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2098" ordinal="0" offset="52" sl="102" sc="3" el="102" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2099" ordinal="0" offset="60" sl="103" sc="3" el="103" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2100" ordinal="0" offset="67" sl="105" sc="3" el="105" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2101" ordinal="0" offset="75" sl="107" sc="3" el="107" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2102" ordinal="0" offset="88" sl="108" sc="3" el="108" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2103" ordinal="0" offset="89" sl="109" sc="4" el="109" ec="4" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2104" ordinal="0" offset="101" sl="110" sc="4" el="110" ec="4" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2105" ordinal="0" offset="117" sl="111" sc="3" el="111" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2106" ordinal="0" offset="118" sl="113" sc="3" el="113" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2107" ordinal="0" offset="128" sl="113" sc="19" el="113" ec="19" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2108" ordinal="0" offset="136" sl="114" sc="2" el="114" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="21" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>static System.Void Moroshka.Xcp.DetailedException::BuildAdditionalInfoString(System.Exception, System.Text.StringBuilder)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2109" ordinal="0" offset="0" sl="117" sc="2" el="117" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2110" ordinal="0" offset="1" sl="118" sc="3" el="118" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2111" ordinal="0" offset="7" sl="120" sc="3" el="120" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2112" ordinal="0" offset="8" sl="120" sc="37" el="120" ec="37" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2113" ordinal="0" offset="22" sl="120" sc="12" el="120" ec="12" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2114" ordinal="0" offset="34" sl="121" sc="3" el="121" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2115" ordinal="0" offset="35" sl="122" sc="4" el="122" ec="4" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2116" ordinal="0" offset="51" sl="122" sc="29" el="122" ec="29" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2117" ordinal="0" offset="53" sl="123" sc="4" el="123" ec="4" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2118" ordinal="0" offset="66" sl="124" sc="4" el="124" ec="4" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2119" ordinal="0" offset="78" sl="124" sc="43" el="124" ec="43" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2120" ordinal="0" offset="80" sl="125" sc="4" el="125" ec="4" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2121" ordinal="0" offset="111" sl="126" sc="3" el="126" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2122" ordinal="0" offset="112" sl="120" sc="34" el="120" ec="34" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2123" ordinal="0" offset="143" sl="128" sc="3" el="128" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2124" ordinal="0" offset="161" sl="128" sc="30" el="128" ec="30" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2125" ordinal="0" offset="163" sl="129" sc="3" el="129" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2126" ordinal="0" offset="172" sl="130" sc="3" el="130" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2127" ordinal="0" offset="190" sl="131" sc="3" el="131" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2128" ordinal="0" offset="199" sl="132" sc="3" el="132" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2129" ordinal="0" offset="206" sl="133" sc="2" el="133" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="28" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>static System.Void Moroshka.Xcp.DetailedException::BuildStackTracesString(System.Exception, System.Text.StringBuilder)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2130" ordinal="0" offset="0" sl="136" sc="2" el="136" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2131" ordinal="0" offset="1" sl="137" sc="3" el="137" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2132" ordinal="0" offset="3" sl="138" sc="3" el="138" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2133" ordinal="0" offset="10" sl="141" sc="3" el="141" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2134" ordinal="0" offset="11" sl="142" sc="4" el="142" ec="4" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2135" ordinal="0" offset="27" sl="143" sc="4" el="143" ec="4" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2136" ordinal="0" offset="28" sl="144" sc="5" el="144" ec="5" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2137" ordinal="0" offset="38" sl="144" sc="26" el="144" ec="26" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2138" ordinal="0" offset="40" sl="145" sc="5" el="145" ec="5" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2139" ordinal="0" offset="52" sl="146" sc="5" el="146" ec="5" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2140" ordinal="0" offset="70" sl="147" sc="5" el="147" ec="5" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2141" ordinal="0" offset="79" sl="148" sc="5" el="148" ec="5" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2142" ordinal="0" offset="94" sl="149" sc="5" el="149" ec="5" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2143" ordinal="0" offset="95" sl="149" sc="26" el="149" ec="26" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2144" ordinal="0" offset="103" sl="149" sc="14" el="149" ec="14" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2145" ordinal="0" offset="110" sl="150" sc="5" el="150" ec="5" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2146" ordinal="0" offset="111" sl="151" sc="6" el="151" ec="6" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2147" ordinal="0" offset="120" sl="152" sc="6" el="152" ec="6" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2148" ordinal="0" offset="136" sl="152" sc="46" el="152" ec="46" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2149" ordinal="0" offset="145" sl="153" sc="5" el="153" ec="5" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2150" ordinal="0" offset="152" sl="149" sc="23" el="149" ec="23" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2151" ordinal="0" offset="160" sl="154" sc="4" el="154" ec="4" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2152" ordinal="0" offset="161" sl="156" sc="4" el="156" ec="4" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2153" ordinal="0" offset="168" sl="157" sc="3" el="157" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2154" ordinal="0" offset="169" sl="140" sc="3" el="140" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2155" ordinal="0" offset="182" sl="159" sc="3" el="159" ec="3" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2156" ordinal="0" offset="189" sl="159" sc="23" el="159" ec="23" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2157" ordinal="0" offset="213" sl="160" sc="2" el="160" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>Moroshka.Xcp.DetailedException::DetailedException(System.String, System.Exception)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2158" ordinal="0" offset="0" sl="28" sc="5" el="28" ec="5" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2159" ordinal="0" offset="9" sl="29" sc="2" el="29" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="2160" ordinal="0" offset="10" sl="30" sc="2" el="30" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Moroshka.Xcp.InvOpException</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>Moroshka.Xcp.InvOpException::InvOpException(System.String, System.Exception)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2161" ordinal="0" offset="0" sl="19" sc="5" el="19" ec="5" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="2162" ordinal="0" offset="9" sl="20" sc="2" el="20" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="2163" ordinal="0" offset="10" sl="21" sc="3" el="21" ec="3" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="2164" ordinal="0" offset="22" sl="22" sc="2" el="22" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>Moroshka.Xcp.InvOpException::InvOpException(System.Exception)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2165" ordinal="0" offset="0" sl="29" sc="5" el="29" ec="5" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="2166" ordinal="0" offset="13" sl="30" sc="2" el="30" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="2167" ordinal="0" offset="14" sl="31" sc="2" el="31" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>Moroshka.Xcp.ObjDisposedException</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.String Moroshka.Xcp.ObjDisposedException::get_Object()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2168" ordinal="0" offset="0" sl="40" sc="10" el="40" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.Void Moroshka.Xcp.ObjDisposedException::set_Object(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2169" ordinal="0" offset="0" sl="41" sc="10" el="41" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>Moroshka.Xcp.ObjDisposedException::ObjDisposedException(System.String, System.Exception)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2170" ordinal="0" offset="0" sl="21" sc="5" el="21" ec="5" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="2171" ordinal="0" offset="9" sl="22" sc="2" el="22" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="2172" ordinal="0" offset="10" sl="23" sc="3" el="23" ec="3" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="2173" ordinal="0" offset="22" sl="24" sc="2" el="24" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>Moroshka.Xcp.ObjDisposedException::ObjDisposedException(System.Exception)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2174" ordinal="0" offset="0" sl="31" sc="5" el="31" ec="5" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="2175" ordinal="0" offset="13" sl="32" sc="2" el="32" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="2176" ordinal="0" offset="14" sl="33" sc="2" el="33" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
