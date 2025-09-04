@@ -14,5 +14,4 @@ BenchmarkRunner.Run<Benchmark>();
 | ToStringException_Moroshka       | 3,520.5 ns | 64.68 ns | 60.51 ns |    6 | 1.0185 | 0.0038 |  16.64 KB |
 | ToStringNestedException_System   | 1,111.9 ns | 19.62 ns | 33.31 ns |    3 | 0.3700 |      - |   6.07 KB |
 | ToStringNestedException_Moroshka | 3,303.8 ns | 64.76 ns | 66.51 ns |    5 | 0.8354 | 0.0114 |  13.69 KB |
-
 */

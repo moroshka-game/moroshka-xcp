@@ -6,7 +6,7 @@ namespace Moroshka.Xcp.Benchmark;
 [MemoryDiagnoser]
 [RankColumn]
 [SuppressMessage("Performance", "CA1822")]
-public sealed class Benchmark
+public class Benchmark
 {
 	private const string TestMessage = "Test exception message";
 
