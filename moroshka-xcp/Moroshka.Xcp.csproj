@@ -22,8 +22,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="..\.github\README.md" Pack="true" PackagePath="\" />
-        <None Include="..\LICENSE.md" Pack="true" PackagePath="\" />
+        <None Include="..\.github\README.md">
+          <Pack>true</Pack>
+          <PackagePath>\</PackagePath>
+          <Link>Docs\README.md</Link>
+        </None>
+        <None Include="..\LICENSE.md">
+          <Pack>true</Pack>
+          <PackagePath>\</PackagePath>
+          <Link>Docs\LICENSE.md</Link>
+        </None>
     </ItemGroup>
 
     <ItemGroup>
